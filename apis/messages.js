@@ -1,8 +1,8 @@
 import omit from 'lodash/object/omit';
-import BaseAPI from './base.es6.js';
-import Comment from '../models/comment.es6.js';
-import Link from '../models/comment.es6.js';
-import Message from '../models/message.es6.js';
+import BaseAPI from './base';
+import Comment from '../models/comment';
+import Link from '../models/comment';
+import Message from '../models/message';
 
 const CONSTRUCTORS = {
   t1: Comment,

@@ -1,5 +1,5 @@
-import BaseAPI from './baseContent.es6.js';
-import Rule from '../models/rule.es6.js';
+import BaseAPI from './baseContent';
+import Rule from '../models/rule';
 import has from 'lodash/object/has';
 
 const SUBREDDIT_REGEX =  /.*\/r\/(.+)\/about\/rules\.json.*/;

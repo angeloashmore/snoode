@@ -1,8 +1,8 @@
-import BaseAPI from './baseContent.es6.js';
+import BaseAPI from './baseContent';
 import has from 'lodash/object/has';
 
-import Link from '../models/link.es6.js';
-import Comment from '../models/comment.es6.js';
+import Link from '../models/link';
+import Comment from '../models/comment';
 
 class ModListing extends BaseAPI {
   static dataCacheConfig = undefined;

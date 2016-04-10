@@ -1,5 +1,5 @@
-import BaseAPI from './baseContent.es6.js';
-import Link from '../models/link.es6.js';
+import BaseAPI from './baseContent';
+import Link from '../models/link';
 
 class Links extends BaseAPI {
   // TODO set cache rules

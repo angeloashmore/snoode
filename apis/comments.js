@@ -1,6 +1,6 @@
 import has from 'lodash/object/has';
-import BaseAPI from './baseContent.es6.js';
-import Comment from '../models/comment.es6.js';
+import BaseAPI from './baseContent';
+import Comment from '../models/comment';
 import treeifyComments from '../lib/treeifyComments';
 
 class Comments extends BaseAPI {

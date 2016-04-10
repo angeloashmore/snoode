@@ -1,4 +1,4 @@
-import BaseAPI from './base.es6.js';
+import BaseAPI from './base';
 
 import Link from '../models/link';
 import WikiPage from '../models/wikiPage';

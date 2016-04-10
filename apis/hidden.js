@@ -1,6 +1,6 @@
-import BaseAPI from './base.es6.js';
-import Save from '../models/save.es6.js';
-import Saves from './saves.es6.js';
+import BaseAPI from './base';
+import Save from '../models/save';
+import Saves from './saves';
 
 class Hidden extends Saves {
   path (method, query={}) {

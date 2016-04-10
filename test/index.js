@@ -1,7 +1,7 @@
 require('babel-polyfill');
 
 require('babel-register')({
-  extensions: ['.js', '.es6.js'],
+  extensions: ['.js'],
   presets: [
     'es2015',
   ],
